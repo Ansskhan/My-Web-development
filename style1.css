@@ -1,40 +1,51 @@
-.intro{
-    background-color: #F8F9FA; /* Background Color */
-    color: #333333;
+*{
+    margin: 0;
+    padding: 0;
+}
+.introduction{ /* Background Color */
   border-radius: 15px;
-  margin: 25px;
-  margin-bottom: 50px;
-
-
+  margin: 30px;
+  margin-bottom: 40px;
+}
+.col-12 p{
+    color: white;
+}
+p{
+    color: white;
+}
+.navbar {
+    background-color: black;
 }
 .nav-link{
-    color: black;
+    color: gray;
 }
-a{
-    color: black;
+.container-fluid a:hover{
+    color: red;
 }
-.collaspe{
-    color: black;
+.navbar-brand{
+    color: white;
+    font-weight: bold;
 }
+
 .bg-page{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: darkslategray;
+    background-color: darkgray;
     
 }
 .featured{
-    background-color: #F8F9FA;
+    background-color: darkslategray;
 }
 h2{
-    color:deepskyblue;
+    color: darkcyan;
 }
 h4{
-    color: blueviolet;
+    color: black;
 }
 h3{
-    color: cyan;
+    color: black;
 }
 
 img{
@@ -74,10 +85,6 @@ video{
     justify-content: center;
     width: 100vw;
     
-}
-.intro{
-    margin: 10px;
-
 }
 .projects{
     margin: 20px;
