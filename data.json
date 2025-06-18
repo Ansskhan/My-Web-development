@@ -1,0 +1,42 @@
+{
+    "Card": [
+        {
+            "Title": " 🚀 AstroVerse – Explore the Cosmos 🌌",
+            "img": "./images/E-project.png",
+            "text": "AstroVerse is a fun and easy-to-use website all about space and astronomy. It shares information about cool space events like eclipses, meteor showers, and planet movements. You can also learn about amazing things like black holes, galaxies, and stars. Everything is explained in a simple way so anyone can understand. The design is clean and makes it easy to explore.",
+            "link": "https://ansskhan.github.io/My-e-project/"
+        },
+        {
+            "Title": "📚 Book Paradise 🌟",
+            "img": "./images/E-commrce.png",
+            "text": "Book Paradise is a beautiful and easy-to-use website designed especially for book lovers. The main goal of this website is to help users explore and enjoy a wide variety of books from different genres like fiction, mystery, science, fantasy, and more. Each book is shown with a cover image and a short description to give users a quick idea of what it's about.",
+            "link": "https://ansskhan.github.io/Books.web/"
+        },
+        {
+            "Title": "💼 Responsive Website CV 🌐",
+            "img": "./images/webCV.png",
+            "text": "A clean and modern personal CV website built to work smoothly on all devices. It showcases my skills, education, projects, and contact details in an organized way. The layout is fully responsive and user-friendly. It’s a simple and professional way to introduce myself online.",
+            "link": "https://ansskhan.github.io/CV/"
+        },
+        {
+            "Title": "🌸 C4RA – Fragrance Website 🌿",
+            "img": "./images/Frangrance.png",
+            "text": "C4RA is a stylish and responsive fragrance website designed to showcase luxury perfumes and beauty products. The layout is clean and elegant, with smooth scrolling and a modern look. Built using HTML, CSS, and JavaScript, it offers a user-friendly experience across devices. This project highlights visual design, brand presentation, and simplicity.",
+            "link": "https://ansskhan.github.io/Fragrance-web/"
+        }
+    ],
+    "Skill-Cards": [
+        {
+            "img": "",
+            "Title": "",
+            "text": "",
+            "animation" : ""
+        },
+        {
+            "img": "",
+            "Title": "",
+            "text": "",
+            "animation" : ""
+        }
+    ]
+}
