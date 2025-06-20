@@ -11,13 +11,13 @@ navbar.innerHTML = `
       <div class="collapse navbar-collapse fs-5 " id="navbarNav">
         <ul class="navbar-nav ms-auto  ">
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="./index.html#featured">PROJECTS</a>
+            <a class="nav-link" aria-current="page" href="#featured">PROJECTS</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./index.html#end">ABOUT</a>
+            <a class="nav-link" href="#end">ABOUT</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./index.html#end">CONTACT</a>
+            <a class="nav-link" href="#end">CONTACT</a>
           </li>
         </ul>
       </div>

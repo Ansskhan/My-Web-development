@@ -72,6 +72,13 @@ html, body {
    gap: 20px;
    width: 95vw;
  }
+ .child-container1 a{
+  text-decoration: none;
+  color: black;
+ }
+ .child-container1 a:hover{
+  text-decoration: none;
+ }
 
  .child-container1,
  .child-container2 {
