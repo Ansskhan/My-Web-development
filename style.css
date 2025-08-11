@@ -340,11 +340,11 @@ margin-top: 10px;
      font-size: 1.2rem;
    }
  }
- #cardCont .card{
+ .featured .container .card{
   height: 430px;
   font-size: small;
  }
- #cardCont .card img{
+.featured .container .card img{
   height: 150px;
  }
 
