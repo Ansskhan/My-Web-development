@@ -52,6 +52,7 @@ html, body {
    width: 95vw;
    position: absolute;
  }
+ 
 
  .container-fluid .navbar-brand:hover {
    color: white;
@@ -263,7 +264,7 @@ html, body {
   margin-bottom: 60px;
  }
  .featured .container .card p{
-  font-size: large;
+  font-size:medium;
  }
  .featured h2{
   margin-bottom: 3%;

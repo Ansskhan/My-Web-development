@@ -14,7 +14,7 @@ fetch('data.json')
         <div class="card-body">
             <h5 class="card-title">${indexNo.Title}</h5>
             <p class="card-text">${indexNo.text}</p>
-            <a href="${indexNo.link}" class="btn btn-primary">Visit </a>
+            <a href="${indexNo.link}" class="btn btn-primary" target="_blank" >Visit </a>
         </div>
 
 </div>            
