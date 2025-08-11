@@ -262,6 +262,9 @@ html, body {
   padding: 0;
   margin-bottom: 60px;
  }
+ .featured .container .card p{
+  font-size: large;
+ }
  .featured h2{
   margin-bottom: 3%;
  }
@@ -340,13 +343,7 @@ margin-top: 10px;
      font-size: 1.2rem;
    }
  }
- .featured .container .card{
-  height: 430px;
-  font-size: small;
- }
-.featured .container .card img{
-  height: 150px;
- }
+
 
  @media (min-width:900px) and (max-width: 1024px) {
 
@@ -368,7 +365,15 @@ margin-top: 10px;
      flex-direction: column;
      align-items: center;
    }
-
+ .featured .container .card{
+  height: 430px;
+ }
+ .featured .container .card p{
+  font-size: small;
+ }
+.featured .container .card img{
+  height: 150px;
+ }
 .row .card {
   width: 90vw;
   max-width: 340px;
