@@ -340,6 +340,14 @@ margin-top: 10px;
      font-size: 1.2rem;
    }
  }
+ #cardCont .card{
+  border: 2px solid red;
+  height: 430px;
+  font-size: small;
+ }
+ #cardCont .card img{
+  height: 150px;
+ }
 
  @media (min-width:900px) and (max-width: 1024px) {
 
