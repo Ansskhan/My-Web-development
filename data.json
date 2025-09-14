@@ -29,20 +29,12 @@
             "img": "./images/travelSmart.png",
             "text": "Travel Smart is a modern, responsive travel website built to make trip planning simple and enjoyable. Users can explore destinations, view detailed tour packages, and filter results by category or price. With sections like Highlighted Tours, Group Tours, and Honeymoon Packages, the site offers something for every traveler.",
             "link": "https://ansskhan.github.io/Travel-Smart/"
-        }
-    ],
-    "Skill-Cards": [
-        {
-            "img": "",
-            "Title": "",
-            "text": "",
-            "animation" : ""
         },
         {
-            "img": "",
-            "Title": "",
-            "text": "",
-            "animation" : ""
+            "Title": "🎓 Campus Connect – College Event Hub",
+            "img": "./images/Campus-Connect.png",
+            "text": "React-based web app for managing and showcasing college events. Features event listings with filters, gallery, about section, contact with FAQs, and testimonials — all powered by JSON-driven dynamic data.",
+            "link": "http://aptechmetrostargate.com:107 "
         }
     ]
 }
