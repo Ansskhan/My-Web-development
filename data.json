@@ -35,6 +35,12 @@
             "img": "./images/Campus-Connect.png",
             "text": "React-based web app for managing and showcasing college events. Features event listings with filters, gallery, about section, contact with FAQs, and testimonials — all powered by JSON-driven dynamic data.",
             "link": "http://aptechmetrostargate.com:107 "
+        },
+        {
+            "Title": "Smart Lab Automation & Testing System ⚙️💻",
+            "img": "./images/Lab-automation.png",
+            "text": "A smart web-based platform for managing and automating product testing.It allows admins to handle products, users, and reports, while testers can record and view test results.Built with PHP, MySQL, and Bootstrap, featuring dynamic dashboards, real-time summaries, and secure role-based access for efficient lab operations.",
+            "link": "https://lab-automation-production-831a.up.railway.app/"
         }
     ]
 }
