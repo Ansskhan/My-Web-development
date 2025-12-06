@@ -1,28 +1,31 @@
-let cardContainer = document.getElementById("cardCont") 
-fetch('data.json')
-    .then(response => {
-        return response.json();
-    })
-    .then(data => {
-        data.Card.forEach(indexNo => {
-            cardContainer.innerHTML += `
+document.addEventListener('DOMContentLoaded', () => {
+    const cardContainer = document.getElementById('cardCont');
+    if (!cardContainer) {
+        console.warn('Element #cardCont not found — aborting card render.');
+        return;
+    }
+
+    fetch('data.json')
+        .then(response => response.json())
+        .then(data => {
+            data.Card.forEach(indexNo => {
+                cardContainer.innerHTML += `
 <div class="card " data-aos="zoom-in-up" data-aos-duration="500" data-aos-delay="00"
     data-aos-easing="cubic-bezier(0.55, 0.055, 0.675, 0.19)">
-
 
         <img src="${indexNo.img}" class="card-img-top" alt="...">
         <div class="card-body">
             <h5 class="card-title">${indexNo.Title}</h5>
             <p class="card-text">${indexNo.text}</p>
-            <a href="${indexNo.link}" class="btn btn-primary" target="_blank" >Visit </a>
+            <a href="${indexNo.link}" class="btn btn-primary" target="_blank">Visit</a>
         </div>
 
-</div>            
-        `
-
+</div>
+                `;
+            });
+        })
+        .catch(error => {
+            console.error('Error occurred while fetching data.json:', error);
         });
-    })
-    .catch(error => {
-        console.log("Error has been occured" + error)
-    })
+});
 
