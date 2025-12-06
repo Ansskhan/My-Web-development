@@ -7,6 +7,12 @@
             "link": "https://ansskhan.github.io/My-e-project/"
         },
         {
+            "Title": " 🌍 Tourista — Explore Pakistan",
+            "img": "./images/Tourista.png",
+            "text": "Tourista is a modern, fully responsive travel website built to showcase Pakistan’s most stunning destinations. Featuring an AI-powered virtual assistant, dynamic tour booking, real-time weather checking, and smooth scroll animations, it delivers a seamless and visually engaging experience—perfect for planning unforgettable trips across Pakistan",
+            "link": "https://tourista-traveler.infinityfreeapp.com/"
+        },
+        {
             "Title": "📚 Book Paradise 🌟",
             "img": "./images/E-commrce.png",
             "text": "Book Paradise is a beautiful and easy-to-use website designed especially for book lovers. The main goal of this website is to help users explore and enjoy a wide variety of books from different genres like fiction, mystery, science, fantasy, and more. Each book is shown with a cover image and a short description to give users a quick idea of what it's about.",
