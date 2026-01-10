@@ -1,10 +1,10 @@
 {
     "Card": [
         {
-            "Title": " 🚀 AstroVerse – Explore the Cosmos 🌌",
-            "img": "./images/E-project.png",
-            "text": "AstroVerse is a fun and easy-to-use website all about space and astronomy. It shares information about cool space events like eclipses, meteor showers, and planet movements. You can also learn about amazing things like black holes, galaxies, and stars. Everything is explained in a simple way so anyone can understand. The design is clean and makes it easy to explore.",
-            "link": "https://ansskhan.github.io/My-e-project/"
+            "Title": "✨ Jannah Scents: Arabic Luxury Fragrance ",
+            "img": "./images/Jannah.png",
+            "text": "Jannah Scents is an elegant website dedicated to premium perfumes and traditional oils. It showcases exquisite fragrances with a sophisticated, clean design, providing a seamless and user-friendly experience for fragrance enthusiasts.",
+            "link": "https://jannahscentspk.infinityfreeapp.com"
         },
         {
             "Title": " 🌍 Tourista — Explore Pakistan",
@@ -13,40 +13,52 @@
             "link": "https://tourista-traveler.infinityfreeapp.com/"
         },
         {
-            "Title": "📚 Book Paradise 🌟",
-            "img": "./images/E-commrce.png",
-            "text": "Book Paradise is a beautiful and easy-to-use website designed especially for book lovers. The main goal of this website is to help users explore and enjoy a wide variety of books from different genres like fiction, mystery, science, fantasy, and more. Each book is shown with a cover image and a short description to give users a quick idea of what it's about.",
-            "link": "https://ansskhan.github.io/Books.web/"
+            "Title": "🚀 AstroVerse – Explore the Cosmos 🌌",
+            "img": "./images/E-project.png",
+            "text": "AstroVerse is a fun and easy-to-use website all about space and astronomy. It shares information about cool space events like eclipses, meteor showers, and planet movements. You can also learn about amazing things like black holes, galaxies, and stars. Everything is explained in a simple way so anyone can understand. The design is clean and makes it easy to explore.",
+            "link": "https://ansskhan.github.io/My-e-project/"
         },
-                {
-            "Title": "Smart Lab Automation & Testing System ⚙️💻",
-            "img": "./images/Lab-automation.png",
-            "text": "A smart web-based platform for managing and automating product testing.It allows admins to handle products, users, and reports, while testers can record and view test results.Built with PHP, MySQL, and Bootstrap, featuring dynamic dashboards, real-time summaries, and secure role-based access for efficient lab operations.",
-            "link": "https://lab-automation-production-831a.up.railway.app/"
-        },
-                {
-            "Title": "🎓 Campus Connect – College Event Hub",
-            "img": "./images/Campus-Connect.png",
-            "text": "React-based web app for managing and showcasing college events. Features event listings with filters, gallery, about section, contact with FAQs, and testimonials — all powered by JSON-driven dynamic data.",
-            "link": "http://aptechmetrostargate.com:107 "
-        },
-                {
+        {
             "Title": "Travel-Smart International travel agent",
             "img": "./images/travelSmart.png",
             "text": "Travel Smart is a modern, responsive travel website built to make trip planning simple and enjoyable. Users can explore destinations, view detailed tour packages, and filter results by category or price. With sections like Highlighted Tours, Group Tours, and Honeymoon Packages, the site offers something for every traveler.",
             "link": "https://ansskhan.github.io/Travel-Smart/"
         },
-                {
-            "Title": "🌸 C4RA – Fragrance Website 🌿",
-            "img": "./images/Frangrance.png",
-            "text": "C4RA is a stylish and responsive fragrance website designed to showcase luxury perfumes and beauty products. The layout is clean and elegant, with smooth scrolling and a modern look. Built using HTML, CSS, and JavaScript, it offers a user-friendly experience across devices. This project highlights visual design, brand presentation, and simplicity.",
-            "link": "https://ansskhan.github.io/Fragrance-web/"
+        {
+            "Title": "📚 Book Paradise 🌟",
+            "img": "./images/E-commrce.png",
+            "text": "Book Paradise is a beautiful and easy-to-use website designed especially for book lovers. The main goal of this website is to help users explore and enjoy a wide variety of books from different genres like fiction, mystery, science, fantasy, and more. Each book is shown with a cover image and a short description to give users a quick idea of what it's about.",
+            "link": "https://ansskhan.github.io/Books.web/"
+        },
+        {
+            "Title": "Smart Lab Automation & Testing System ⚙️💻",
+            "img": "./images/Lab-automation.png",
+            "text": "A smart web-based platform for managing and automating product testing.It allows admins to handle products, users, and reports, while testers can record and view test results.Built with PHP, MySQL, and Bootstrap, featuring dynamic dashboards, real-time summaries, and secure role-based access for efficient lab operations.",
+            "link": "https://lab-automation-production-831a.up.railway.app/"
+        },
+        {
+            "Title": "🎓 Campus Connect – College Event Hub",
+            "img": "./images/Campus-Connect.png",
+            "text": "React-based web app for managing and showcasing college events. Features event listings with filters, gallery, about section, contact with FAQs, and testimonials — all powered by JSON-driven dynamic data.",
+            "link": "http://aptechmetrostargate.com:107 "
+        },
+        {
+            "Title": "🛠️ Laravel CRUD: Data Management System 💻",
+            "img": "./images//laravel(CRUD).png",
+            "text": "A streamlined web application built with Laravel to manage data efficiently. It features complete Create, Read, Update, and Delete functionality with a focus on clean code and database integrity. The system includes secure form validation and a responsive interface, demonstrating solid back-end logic and professional web development standards.",
+            "link": "https://laravelcrud1.infinityfreeapp.com/read"
         },
         {
             "Title": "💼 Responsive Website CV 🌐",
             "img": "./images/webCV.png",
             "text": "A clean and modern personal CV website built to work smoothly on all devices. It showcases my skills, education, projects, and contact details in an organized way. The layout is fully responsive and user-friendly. It’s a simple and professional way to introduce myself online.",
             "link": "https://ansskhan.github.io/CV/"
+        },
+        {
+            "Title": "🌸 C4RA – Fragrance Website 🌿",
+            "img": "./images/Frangrance.png",
+            "text": "C4RA is a stylish and responsive fragrance website designed to showcase luxury perfumes and beauty products. The layout is clean and elegant, with smooth scrolling and a modern look. Built using HTML, CSS, and JavaScript, it offers a user-friendly experience across devices. This project highlights visual design, brand presentation, and simplicity.",
+            "link": "https://ansskhan.github.io/Fragrance-web/"
         }
     ]
 }
