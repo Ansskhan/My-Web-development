@@ -1,0 +1,32 @@
+[
+  {
+    "image": "assets/images/blog/JS.jpg",
+    "title": "Progressing in Back-End Development",
+    "description": "Actively strengthening back-end development skills by working with databases, server-side logic, and secure data handling to build reliable web applications."
+  },
+  {
+    "image": "assets/images/blog/img-6.jpg",
+    "title": "Professional WordPress Development",
+    "description": "Developing custom WordPress websites including business sites and e-commerce stores, focusing on performance, user experience, and real-world client needs."
+  },
+  {
+    "image": "assets/images/blog/img-2.jpg",
+    "title": "Strong Foundation in OOP Concepts",
+    "description": "Building a solid understanding of Object-Oriented Programming concepts such as classes, inheritance, and modular design for scalable applications."
+  },
+  {
+    "image": "assets/images/blog/updates.png",
+    "title": ".NET Development",
+    "description": "Expanding skills by learning .NET and C#, focusing on building structured, secure, and scalable web applications using industry-standard practices."
+  },
+  {
+    "image": "assets/images/blog/responsive.png",
+    "title": "Learned React at Teachwiz competition",
+    "description": "Completed hands-on React training at Teachwiz, gaining experience in component-based architecture, state management,Routing and modern front-end workflows."
+  },
+  {
+    "image": "assets/images/blog/github.png",
+    "title": "Version Control & Team Collaboration",
+    "description": "Using Git and GitHub daily to manage projects, track changes, collaborate efficiently, and maintain professional development workflows for projects."
+  }
+]

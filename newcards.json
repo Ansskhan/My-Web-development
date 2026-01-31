@@ -1,0 +1,74 @@
+{
+  "cards": [
+    {
+      "Title": "✨ Jannah Scents: Arabic Luxury Fragrance",
+      "img": "./assets/images/projects/Jannah.png",
+      "text": "Elegant eCommerce fragrance website with clean design and smooth, user-friendly shopping experience.",
+      "category": "wp",
+      "link": "https://jannahscentspk.infinityfreeapp.com"
+    },
+    {
+      "Title": "🌍 Tourista — Explore Pakistan",
+      "img": "./assets/images/projects/Tourista.png",
+      "text": "Responsive travel website showcasing Pakistan destinations with AI assistant and interactive features.",
+      "category": "front",
+      "link": "https://tourista-traveler.infinityfreeapp.com/"
+    },
+    {
+      "Title": "🚀 AstroVerse – Explore the Cosmos 🌌",
+      "img": "./assets/images/projects/E-project.png",
+      "text": "Educational astronomy website sharing space events, planets, and cosmic concepts in simple terms.",
+      "category": "front",
+      "link": "https://ansskhan.github.io/My-e-project/"
+    },
+    {
+      "Title": "Travel-Smart International Travel Agent",
+      "img": "./assets/images/projects/travelSmart.png",
+      "text": "Modern travel booking website with tour packages, filters, and destination-focused user experience.",
+      "category": "front",
+      "link": "https://ansskhan.github.io/Travel-Smart/"
+    },
+    {
+      "Title": "📚 Book Paradise 🌟",
+      "img": "./assets/images/projects/E-commrce.png",
+      "text": "Book discovery platform showcasing multiple genres with clean layout and intuitive browsing.",
+      "category": "front",
+      "link": "https://ansskhan.github.io/Books.web/"
+    },
+    {
+      "Title": "Smart Lab Automation & Testing System ⚙️💻",
+      "img": "./assets/images/projects/Lab-automation.png",
+      "text": "Web-based lab automation system with dashboards, reports, and role-based access control.",
+      "category": "back",
+      "link": "https://lab-automation-production-831a.up.railway.app/"
+    },
+    {
+      "Title": "🎓 Campus Connect – College Event Hub",
+      "img": "./assets/images/projects/Campus-Connect.png",
+      "text": "React web app for managing, filtering, and showcasing college events dynamically.",
+      "category": "react",
+      "link": "http://aptechmetrostargate.com:107"
+    },
+    {
+      "Title": "🛠️ Laravel CRUD: Data Management System 💻",
+      "img": "./assets/images/projects/laravel-crud.png",
+      "text": "Laravel-based CRUD system demonstrating secure data handling and backend development skills.",
+      "category": "back",
+      "link": "https://laravelcrud1.infinityfreeapp.com/read"
+    },
+    {
+      "Title": "💼 Responsive Website CV 🌐",
+      "img": "./assets/images/projects/webCV.png",
+      "text": "Fully responsive personal CV website showcasing skills, projects, and contact information.",
+      "category": "front",
+      "link": "https://ansskhan.github.io/CV/"
+    },
+    {
+      "Title": "🌸 C4RA – Fragrance Website 🌿",
+      "img": "./assets/images/projects/Frangrance.png",
+      "text": "Stylish fragrance showcase website focused on visual design and brand presentation.",
+      "category": "front",
+      "link": "https://ansskhan.github.io/Fragrance-web/"
+    }
+  ]
+}
