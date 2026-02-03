@@ -12,13 +12,13 @@ fetch('newcards.json')
         data.cards.forEach(item => {
             projectContainer.innerHTML += `
     <div class="col-lg-6 col-md-8 mix ${item.category}">
-        <div class="single-portfolio" style="background-image: url(${item.img})">
+        <div class="single-portfolio" loading="lazy" style="background-image: url(${item.img})">
             <a target="_blank" class="visit-btn" href="${item.link}">
                 Visit <i class="fas fa-external-link-alt"></i>
             </a>
 
             <div class="portfolio-icon text-center">
-                <a data-lightbox='lightbox' href="${item.img}">
+                <a data-lightbox='lightbox' loading="lazy" href="${item.img}">
                     <i class="fas fa-expand-arrows-alt"></i>
                 </a>
             </div>
