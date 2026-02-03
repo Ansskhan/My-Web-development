@@ -38,6 +38,18 @@ body {
     height: 100%;
     background-color: #111111;
     font-family: 'Inter', sans-serif;
+    /* overflow-x: hidden; */
+    /* overflow-x: scroll; */
+    /* Prevent mobile bounce-back */
+    scroll-behavior: auto !important;
+    /* Force auto-scroll on mobile to avoid conflicts */
+}
+
+body {
+    /* margin: 0;
+    padding: 0; */
+    /* border: 2px solid blue; */
+
 }
 
 p {
@@ -248,31 +260,7 @@ button:focus {
     line-height: 1;
 }
 
-.cont-title h2 {
-    text-transform: uppercase;
-    position: relative;
-    font-size: 38px;
-    padding-bottom: 15px;
-    margin-bottom: 15px;
-    line-height: 1;
-}
 
-.cont-title h2:before,
-.cont-title h2:after {
-    position: absolute;
-    content: '';
-    left: 18%;
-    bottom: 0;
-    width: 80px;
-    height: 5px;
-    background-color: #b3b3b3;
-}
-
-.cont-title h2:before {
-    left: 0;
-    right: 50%;
-    background-color: #2a2a2a;
-}
 
 .info-icon i {
     color: #ffffff;
@@ -301,15 +289,14 @@ button:focus {
 .navbar {
     -webkit-transition: .3s;
     transition: .3s;
-}
-
-.bg-navbar {
     background-color: rgba(17, 17, 17, 0.85);
     backdrop-filter: blur(10px);
     /* This adds the "frosted glass" look */
     -webkit-backdrop-filter: blur(10px);
     /* Support for Safari */
 }
+
+.bg-navbar {}
 
 .nav-heading {
     color: #fff;
@@ -539,7 +526,7 @@ button:focus {
         top: 0;
         padding: 50px 15px;
         background-color: #111;
-        width: 100%;
+        /* width: 100%; */
         z-index: 1030;
     }
 
@@ -841,8 +828,9 @@ button:focus {
 
 .skillbar-bar {
     height: 35px;
-    width: 0px;
     background-color: #fff;
+    width: 0;
+    transition: width 1.5s ease-in-out;
 }
 
 .skill-bar-percent {
@@ -1106,8 +1094,8 @@ button:focus {
 
 /* Container adjustment to ensure the button stays inside */
 .single-portfolio {
-    position: relative;
-    overflow: hidden;
+    /* position: relative; */
+    /* overflow: hidden; */
 }
 
 /* Stylish Visit Button */
@@ -1317,12 +1305,6 @@ button:focus {
     width: 60px;
     height: 100%;
     line-height: 200%;
-}
-
-.faq-body {
-    background: #3e3e3e;
-    color: #fff;
-    padding: 15px;
 }
 
 
@@ -2241,6 +2223,34 @@ p.comment-date {
     box-shadow: 0 0 10px #ccc;
 }
 
+
+
+.cont-title h2 {
+    text-transform: uppercase;
+    position: relative;
+    font-size: 38px;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    line-height: 1;
+}
+
+.cont-title h2:before,
+.cont-title h2:after {
+    position: absolute;
+    content: '';
+    left: 18%;
+    bottom: 0;
+    width: 80px;
+    height: 5px;
+    background-color: #b3b3b3;
+}
+
+.cont-title h2:before {
+    left: 0;
+    right: 50%;
+    background-color: #2a2a2a;
+}
+
 .contact-form .form-control {
     background-color: #f8f9fa;
     font-size: 14px;
@@ -2344,6 +2354,8 @@ input:-webkit-autofill {
     color: #111111;
 }
 
+.copyright-text {}
+
 .copyright-text p {
     color: #111111;
     font-weight: 700;
@@ -2354,4 +2366,11 @@ input:-webkit-autofill {
     font-weight: 700;
     -webkit-transition: .3s;
     transition: .3s;
+}
+
+@media (max-width:789px) {
+    .portfolio-icon {
+        display: none;
+    }
+
 }

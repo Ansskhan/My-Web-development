@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
     .then(data => {
       const blogSection = document.getElementById("blog-section");
 
-      blogSection.innerHTML = ""; // Clear existing static content
+      blogSection.innerHTML = ""; 
 
       data.forEach(card => {
         const blogCard = document.createElement("div");

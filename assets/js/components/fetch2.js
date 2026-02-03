@@ -7,7 +7,6 @@ fetch('newcards.json')
         return response.json();
     })
     .then(data => {
-        // Clear the container first to remove any static placeholders
         projectContainer.innerHTML = '';
 
         data.cards.forEach(item => {

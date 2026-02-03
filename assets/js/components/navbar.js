@@ -1,6 +1,6 @@
 const navbar = document.getElementById('header');
 navbar.innerHTML = `
-        <nav class="navbar navbar-expand-lg fixed-top">
+
             <div class="container">
                 <!-- Logo -->
                 <h1 class="nav-heading">Anas <span>Ashraf</span></h1>
@@ -21,5 +21,4 @@ navbar.innerHTML = `
                     </ul>
                 </div>
             </div>
-        </nav>
 `

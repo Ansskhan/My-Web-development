@@ -1,20 +1,30 @@
 (function ($) {
     "use strict";
 
-    /*==========================
-        About Area
-    ============================*/
+    function animateSkillBars() {
+        var windowHeight = $(window).height();
+        var scrollPos = $(window).scrollTop();
 
-    var offsetTop = $('#skills').offset().top;
-    $(window).on('scroll', function () {
-        var height = $(window).height();
-        if ($(window).scrollTop() + height > offsetTop) {
-            jQuery('.skillbar').each(function () {
-                jQuery(this).find('.skillbar-bar').animate({
-                    width: jQuery(this).attr('data-percent')
-                }, 1000);
-            });
-        }
+        $('.skillbar').each(function () {
+            var $this = $(this);
+            var $bar = $this.find('.skillbar-bar');
+            var offsetTop = $this.offset().top;
+
+            // Trigger when the element is well within the viewport
+            if (scrollPos + windowHeight > offsetTop + 50) {
+                var percent = $this.attr('data-percent');
+                $bar.css('width', percent);
+            }
+        });
+    }
+
+    // Attach to scroll and resize
+    $(window).on('scroll resize', animateSkillBars);
+
+    // Initial check on load
+    $(document).ready(function () {
+        // Delay slightly to ensure layout is ready
+        setTimeout(animateSkillBars, 500);
     });
 
 }(jQuery));
