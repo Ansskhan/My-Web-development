@@ -40,7 +40,7 @@
       "img": "./assets/images/projects/Lab-automation.png",
       "text": "Web-based lab automation system with dashboards, reports, and role-based access control.",
       "category": "back",
-      "link": "https://lab-automation-production-831a.up.railway.app/"
+      "link": "http://labsautomation.infinityfreeapp.com/"
     },
     {
       "Title": "🎓 Campus Connect – College Event Hub",
