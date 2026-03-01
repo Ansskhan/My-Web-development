@@ -15,11 +15,11 @@
       "link": "https://tourista-traveler.infinityfreeapp.com/"
     },
     {
-      "Title": "🚀 AstroVerse – Explore the Cosmos 🌌",
+      "Title": "🚀 AstroVerse – Explore the Cosmos 🌌 (SPA)",
       "img": "./assets/images/projects/E-project.png",
-      "text": "Educational astronomy website sharing space events, planets, and cosmic concepts in simple terms.",
+      "text": "Angular based educational astronomy website sharing space events, planets, and cosmic concepts in simple terms.",
       "category": "front",
-      "link": "https://ansskhan.github.io/My-e-project/"
+      "link": "https://astroverses.netlify.app/"
     },
     {
       "Title": "Travel-Smart International Travel Agent",
