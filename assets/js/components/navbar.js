@@ -16,7 +16,7 @@ navbar.innerHTML = `
                         <li class="nav-item"><a class="nav-link" href="#about">ABOUT</a></li>
                         <li class="nav-item"><a class="nav-link" href="#service">SERVICE</a></li>
                         <li class="nav-item"><a class="nav-link" href="#portfolio">PORTFOLIO</a></li>
-                        <li class="nav-item"><a class="nav-link" href="blog.html">BLOG</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#blog">BLOG</a></li>
                         <li class="nav-item"><a class="nav-link pr0" href="#contact">CONTACT</a></li>
                     </ul>
                 </div>
