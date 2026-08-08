@@ -4,8 +4,32 @@
     /*::::::::::::::::::::::::::::::::::::
 Preloader
 ::::::::::::::::::::::::::::::::::::*/
-    $(window).on('load', function () {
-        $('.preloader').fadeOut();
+    function hidePreloader() {
+        const preloader = document.querySelector('.preloader');
+        if (!preloader) return;
+
+        preloader.classList.add('is-hidden');
+
+        window.setTimeout(function () {
+            if (preloader.parentNode) {
+                preloader.parentNode.removeChild(preloader);
+            }
+        }, 350);
+    }
+
+    window.hidePortfolioPreloader = hidePreloader;
+
+    window.addEventListener('DOMContentLoaded', function () {
+        window.__loaderFallbackTimer = window.setTimeout(function () {
+            hidePreloader();
+        }, 1800);
+    });
+
+    window.addEventListener('load', function () {
+        if (window.__loaderFallbackTimer) {
+            window.clearTimeout(window.__loaderFallbackTimer);
+        }
+        hidePreloader();
     });
 
     /*:::::::::::::::::::::::::::::::::::

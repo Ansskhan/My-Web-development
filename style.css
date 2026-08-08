@@ -166,6 +166,15 @@ button:focus {
     height: 100%;
     background-color: #111111;
     z-index: 99999;
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.35s ease, visibility 0.35s ease;
+}
+
+.preloader.is-hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
 }
 
 .spinner {
