@@ -1056,7 +1056,8 @@ button:focus {
 .work-list ul li {
     display: inline-block;
     padding: 5px 10px;
-    border: 1px solid;
+    border: 1px solid #ddd;
+    color: #ddd;
     -webkit-transition: .3s;
     transition: .3s;
     font-weight: 500;

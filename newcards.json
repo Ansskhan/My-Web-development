@@ -1,6 +1,13 @@
 {
   "cards": [
     {
+      "Title": "🛒 SmartBazaar: Digital Supermarket Platform",
+      "img": "./assets/images/projects/SmartBazaar.png",
+      "text": "Full-stack e-commerce system featuring role-based admin security, real-time dynamic cart operations, and automated inventory management",
+      "category": "net",
+      "link": "https://smartbazaar.runasp.net/"
+    },
+    {
       "Title": "✨ Jannah Scents: Arabic Luxury Fragrance",
       "img": "./assets/images/projects/Jannah.png",
       "text": "Elegant eCommerce fragrance website with clean design and smooth, user-friendly shopping experience.",
@@ -55,20 +62,6 @@
       "text": "Laravel-based CRUD system demonstrating secure data handling and backend development skills.",
       "category": "back",
       "link": "https://laravelcrud1.infinityfreeapp.com/read"
-    },
-    {
-      "Title": "💼 Responsive Website CV 🌐",
-      "img": "./assets/images/projects/webCV.png",
-      "text": "Fully responsive personal CV website showcasing skills, projects, and contact information.",
-      "category": "front",
-      "link": "https://ansskhan.github.io/CV/"
-    },
-    {
-      "Title": "🌸 C4RA – Fragrance Website 🌿",
-      "img": "./assets/images/projects/Frangrance.png",
-      "text": "Stylish fragrance showcase website focused on visual design and brand presentation.",
-      "category": "front",
-      "link": "https://ansskhan.github.io/Fragrance-web/"
     }
   ]
 }
